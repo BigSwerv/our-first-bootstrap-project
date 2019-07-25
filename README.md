@@ -13,7 +13,7 @@
 * must include **at least** four pages.
 	1. an _about_ page
 	2. a _shop_ page
-	2. a _purchase-item_ page
+	2. a _purchase-item_ page 
 	3. a _home_ page
 
 <hr><hr>
