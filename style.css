@@ -1,4 +1,9 @@
 /* Add a black background color to the top navigation bar */
+body{
+  background-color: black !important
+}
+
+
 .topnav {
   overflow: hidden;
   background-color: lightgrey;
@@ -98,7 +103,7 @@
 }
 
 img{
-  border-radius: 50%;
+  border-radius: 25%;
   display: block;
   margin-left: auto;
    margin-right: auto;
