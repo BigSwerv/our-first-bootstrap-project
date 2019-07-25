@@ -1,3 +1,12 @@
 body {
   padding-top: 56px;
+  background-image: url("http://24.media.tumblr.com/tumblr_m98psax1qx1qj73e2o1_500.gif");
+}
+
+.card-text {
+  color: rgb(0, 0, 0)
+
+}
+.card-body{
+  color:black
 }
