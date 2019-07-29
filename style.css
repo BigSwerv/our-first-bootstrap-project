@@ -102,8 +102,8 @@ body{
   display: block;
 }
 
-img{
-  border-radius: 25%;
+img {
+  border-radius: 10%;
   display: block;
   margin-left: auto;
    margin-right: auto;
