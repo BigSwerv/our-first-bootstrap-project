@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation bar */
 body{
-  background-color: black !important
+  background-color: white !important
 }
 
 
@@ -68,7 +68,7 @@ img{
 
 
 .dropbtn-w3 {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -98,12 +98,12 @@ img{
   float:none;
 }
 
-.dropdown-content-w3 a:hover {background-color: #f1f1f1}
+.dropdown-content-w3 a:hover {background-color: black}
 
 .dropdown-w3:hover .dropdown-content-w3 {
   display: block;
 }
 
 .dropdown-w3:hover .dropbtn-w3 {
-  background-color: #3e8e41;
+  background-color:red;
 }
