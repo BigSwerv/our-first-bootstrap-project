@@ -13,7 +13,7 @@ body {
 }
 
 .pagination a.active {
-  background-color:red;
+  background-color: lightgrey;
   color: white;
 }
 
