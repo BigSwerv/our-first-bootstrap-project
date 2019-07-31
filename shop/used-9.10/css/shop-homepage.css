@@ -18,3 +18,6 @@ body {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+.my-4{
+  color: azure
+}
