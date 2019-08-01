@@ -18,3 +18,32 @@ body {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.social-icons a {
+	display: inline-block;
+	height: 3.5rem;
+	width: 3.5rem;
+	background-color: red;
+	color: #fff!important;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
+	margin-right: 1rem
+}
+
+.social-icons a:last-child {
+	margin-right: 0
+}
+
+.social-icons a:hover {
+	background-color: lightgrey
+}
+
+.dev-icons {
+	font-size: 3rem
+}
+
+.dev-icons .list-inline-item i:hover {
+	color: white;
+}
