@@ -1,9 +1,17 @@
 body {
-    background-image:url('http://www.toca-ch.com/data/walls/126/25911533.jpg');
-    background-repeat: no-repeat;
+
+    background-image: url("https://www.desktopbackground.org/download/1280x900/2013/10/09/651679_18-best-photos-of-red-and-black-backgrounds-cool-backgrounds-red_1440x900_h.jpg");
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    body {
+        background-attachment: scroll;
+    }
 }
