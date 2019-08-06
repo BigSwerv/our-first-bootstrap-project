@@ -10045,7 +10045,9 @@ a.text-dark:hover, a.text-dark:focus {
 .py-5 {
   background-color: #000
 }
-
+.py-5, .bg-dark{
+  background-color: #000 !important;
+}
 .pagination {
   display: inline-block;
 }
