@@ -10066,7 +10066,7 @@ ul.social-icon{
   position: relative;
   display: block;
   width: 80px;
-  height: 80px;
+  height:80px;
   background-color: #fff;
   text-align: center;
   transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
@@ -10183,4 +10183,7 @@ ul.social-icon{
 #left-footer {
   float: left;
   text-align: left
+}
+#hr.linebreak{
+  border:10px;
 }
