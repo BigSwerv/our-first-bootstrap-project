@@ -1026,7 +1026,7 @@ pre code {
   .col-md-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
-    max-width: 25%;
+    max-width: 15% !important;
   }
   .col-md-4 {
     -ms-flex: 0 0 33.333333%;
@@ -10159,20 +10159,6 @@ ul.social-icon{
   }
 
 
-  .div1 {
-    width: 300px;
-    height: 100px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-  }
-  
-  .div2 {
-    width: 300px;
-    height: 100px;  
-    padding: 50px;
-    border: 1px solid red;
-    box-sizing: border-box;
-  }
 /* Social Icons End */
 
 
@@ -10183,7 +10169,3 @@ ul.social-icon{
 #left-footer {
   float: left;
   text-align: left
-}
-#hr.linebreak{
-  border:10px;
-}
