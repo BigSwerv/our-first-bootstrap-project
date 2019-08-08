@@ -20,7 +20,9 @@ body {
 .pagination a:hover:not(.active) {
   background-color: rgb(0, 0, 0);
 }
-
+.navbar {
+  top: -80px;
+}
 
 
 .my-4{
