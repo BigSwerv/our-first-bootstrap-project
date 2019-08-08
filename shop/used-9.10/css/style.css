@@ -34,6 +34,7 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
 #get-directions {
   font-size: 25px
 }
@@ -4604,6 +4605,7 @@ input[type="button"].btn-block {
 }
 
 .card-text {
+  display: hidden;
   margin-bottom: 0;
   color: rgb(255, 255, 255);
 }
