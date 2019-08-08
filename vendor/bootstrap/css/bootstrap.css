@@ -59,6 +59,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
+  cursor: url("../../../img/kickbakcursor.png"), auto;
   text-align: left;
   background-color: #fff;
 }
@@ -271,7 +272,7 @@ button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
-  cursor: pointer;
+  cursor: url("../../../img/kickbakcursor.png"), auto;
 }
 
 button::-moz-focus-inner,
@@ -352,7 +353,7 @@ output {
 
 summary {
   display: list-item;
-  cursor: pointer;
+  cursor: url("../../../img/kickbakcursor.png"), auto;
 }
 
 template {
@@ -4563,7 +4564,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color:black;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -10181,4 +10182,6 @@ ul.social-icon{
   float: left;
   text-align: left
 }
+
+
 
