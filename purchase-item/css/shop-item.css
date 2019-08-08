@@ -1,3 +1,12 @@
 body {
   padding-top: 56px;
+  background-image: url("https://img.freepik.com/free-vector/royal-watercolor-valentine-red-background_1340-4006.jpg?size=338&ext=jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
 }
+style {
+  p.double {border-style: double;
+  }
