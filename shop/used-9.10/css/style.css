@@ -73,7 +73,6 @@ hr {
   overflow: visible;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -159,7 +158,10 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+.nav-link {
+  color: darkred !important;
 
+}
 a:hover {
   color: #0056b3;
   text-decoration: underline;
@@ -4840,7 +4842,6 @@ input[type="button"].btn-block {
 }
 
 .pagination {
-  display: -ms-flexbox;
   display: inline-block;
   padding-left: 0;
   list-style: none;

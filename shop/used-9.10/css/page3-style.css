@@ -7,6 +7,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#get-directions {
+  font-size: 25px
+}
 ul.social-icon{
   margin: 0;
   padding: 0;
