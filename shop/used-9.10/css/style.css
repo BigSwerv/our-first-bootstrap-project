@@ -160,7 +160,10 @@ a {
 }
 .nav-link {
   color: darkred !important;
+}
 
+.dropdown-item {
+  color: darkred !important;
 }
 a:hover {
   color: #0056b3;
