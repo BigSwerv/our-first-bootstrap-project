@@ -4164,6 +4164,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+
   padding: 0.5rem 1rem;
   color:darkred;
 }
@@ -9931,7 +9932,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #ffffff !important;
 }
 
 .text-black-50 {
@@ -10052,7 +10053,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 .header {
-  padding: 10px 16px;
   background: #000;
   color: #f1f1f1;}
 

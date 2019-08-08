@@ -15,6 +15,10 @@ body {
         background-attachment: scroll;
     }
 }
+
+.navbar {
+    top: -25px;
+  }
 ul.social-icon{
     margin: 0;
     padding: 0;
