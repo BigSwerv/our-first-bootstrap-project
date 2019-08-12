@@ -80,26 +80,26 @@ ul.social-icon{
     }
     ul.social-icon li a:hover{
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-    box-shadow: -50px 50px 50px rgb(255, 0, 0);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0);
     }
     ul.social-icon li:hover:nth-child(1) a{
-    background: #000000;
+    background: #ff0000;
     }
     
     ul.social-icon li:hover:nth-child(1) a:before{
-    background: #000000;
+    background: #ff0000;
     }
     ul.social-icon li:hover:nth-child(1) a:after{
-    background: #4a69ad;
+    background: #ff0000;
     }
     ul.social-icon li:hover:nth-child(2) a{
-    background: #55acee;
+    background: #ff0000;
     }
     ul.social-icon li:hover:nth-child(2) a:before{
-    background: #4184b7;
+    background: #000000;
     }
     ul.social-icon li:hover:nth-child(2) a:after{
-    background: #4d9fde;
+    background: #000000;
     }
     ul.social-icon li:hover:nth-child(3) a{
     background: #dd4b39;
@@ -113,11 +113,11 @@ ul.social-icon{
     }
     
     ul.social-icon li:hover:nth-child(4) a{
-    background: #0077B5;
+    background: rgb(0, 0, 0);
     }
     
     ul.social-icon li:hover:nth-child(4) a:before{
-    background: #036aa0;
+    background: #ff0000;
     }
     ul.social-icon li:hover:nth-child(4) a:after{
     background: #0d82bf;
