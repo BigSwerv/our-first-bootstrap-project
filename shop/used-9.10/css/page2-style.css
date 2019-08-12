@@ -80,14 +80,14 @@ ul.social-icon{
     }
     ul.social-icon li a:hover{
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+    box-shadow: -50px 50px 50px rgb(255, 0, 0);
     }
     ul.social-icon li:hover:nth-child(1) a{
-    background: #3b5999;
+    background: #000000;
     }
     
     ul.social-icon li:hover:nth-child(1) a:before{
-    background: #2e4a86;
+    background: #000000;
     }
     ul.social-icon li:hover:nth-child(1) a:after{
     background: #4a69ad;
