@@ -68,11 +68,6 @@ body {
 
 ul.social-icon li .fa{
   color:red;
-  
-}
-}
-[tabindex="-1"]:focus {
-  outline: 0 !important;
 }
 
 hr {
