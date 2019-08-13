@@ -29,3 +29,18 @@ body {
 .dev-icons .list-inline-item i:hover {
 	color: white;
 }
+
+#right-footer {
+	float: right;
+	text-align: right
+  }
+  #left-footer {
+	float: left;
+	text-align: left
+  }
+
+  body {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, black); /* Standard syntax (must be last) */
+    background-repeat:no-repeat;
+  }

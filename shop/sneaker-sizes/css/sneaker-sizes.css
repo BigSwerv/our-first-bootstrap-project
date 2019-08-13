@@ -412,3 +412,13 @@
   .bg-dark {
     background-color:transparent !important;
   }
+  #right-footer {
+    float: right;
+    text-align: right
+  }
+  #left-footer {
+    float: left;
+    text-align: left
+  }
+  
+  

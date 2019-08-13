@@ -422,3 +422,18 @@ body {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+
+body {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, black); /* Standard syntax (must be last) */
+  background-repeat:no-repeat;
+}
+
+#right-footer {
+  float: right;
+  text-align: right
+}
+#left-footer {
+  float: left;
+  text-align: left
+}
