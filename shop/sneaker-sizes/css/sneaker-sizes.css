@@ -408,3 +408,7 @@
     background-image: linear-gradient(black, red); /* Standard syntax (must be last) */
     background-repeat:no-repeat;
   }
+  
+  .bg-dark {
+    background-color:transparent !important;
+  }
