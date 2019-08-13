@@ -1,15 +1,5 @@
-body{
-  background-image: url("https://images4.alphacoders.com/778/77806.jpg");
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
-/* Social Icons End */
 
 
 #right-footer {

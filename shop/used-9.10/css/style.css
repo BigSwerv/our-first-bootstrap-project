@@ -10129,3 +10129,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 /*# sourceMappingURL=bootstrap.css.map */
+body {
+  background-color: red!important; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, black)!important; /* Standard syntax (must be last) */
+  background-repeat:no-repeat!important;
+}
