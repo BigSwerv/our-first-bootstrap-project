@@ -581,12 +581,7 @@ ul.social-icon{
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-body{
-  background-image:url("https://cdn1.vectorstock.com/i/1000x1000/09/90/burst-red-and-black-background-with-ray-and-star-l-vector-2850990.jpg")
-}
-body{
-    background-repeat: no-repeat;
-}
+
 .navbar{
   top:-100px
 }
