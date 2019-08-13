@@ -18,6 +18,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/heroic-features.css" rel="stylesheet">
+  <link href="css/social-icon.css" rel="stylesheet">
+
 
 
    <!-- SlideShow  -->
@@ -171,79 +173,136 @@
   
   <!-- Page Content -->
   <div class="container">
-  <!-- Sign up form Begins -->  <body>
-      <div class="container">
-          <h2>Form Validation</h2>
-          <p>In this example, we use <code>.needs-validation</code>, which will add the validation effect AFTER the form has been submitting (if there's anything missing).</p>
-          <p>Try to submit this form before filling out the input fields, to see the effect.</p>
-          <form action="/action_page.php" class="needs-validation" novalidate>
-            <div class="form-group">
-                <label for="email" class="mr-sm-2">Email address:</label>
-  <input type="email" class="form-control mb-2 mr-sm-2" id="email">
-              <div class="valid-feedback">Valid.</div>
-              <div class="invalid-feedback">Please fill out this field.</div>
-            </div>
-            <div class="form-group">
-              <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-              <div class="valid-feedback">Valid.</div>
-              <div class="invalid-feedback">Please fill out this field.</div>
-            </div>
-            <div class="form-group form-check">
-              <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Check this checkbox to continue.</div>
-              </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+    <html>
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+      body, html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+      }
+      
+    
+      }
+      
+      .w3-wide {letter-spacing: 10px;}
+      .w3-hover-opacity {cursor: pointer;}
+      
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 1600px) {
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+          background-attachment: scroll;
+          min-height: 400px;
+        }
+      }
+      </style>
+      <body>
+      
+      <!-- Navbar (sit on top) -->
+      
+         
+      
+       
+      
+      
+      <!-- Container (About Section) -->
+      <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT JAVEZ</h3>
+        <p class="w3-center"><em>Shoe Connoisseur</em></p>
+        <p>Javez English is a young buisness owner. He is currently 23 and owns his own store, The Kikback in Middletown, Delaware. </p>
+        <div class="w3-row">
+          <div class="w3-col m6 w3-center w3-padding-large">
+            
+            <img src="../img/spyro.jpg" >
+          </div>
+      
+          <!-- Hide this text on small devices -->
+          <div class="w3-col m6 w3-hide-small w3-padding-large">
+            <p>(waiting for Javez to send me more info)</p>
+          </div>
         </div>
-        
-        <script>
-        // Disable form submissions if there are invalid fields
-        (function() {
-          'use strict';
-          window.addEventListener('load', function() {
-            // Get the forms we want to add validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function(form) {
-              form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                  event.preventDefault();
-                  event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-              }, false);
-            });
-          }, false);
-        })();
-        </script>
-          <!-- Sign up form Ends-->
-  </body>
-  <!-- Body 1 ends here -->
+        <p class="w3-large w3-center w3-padding-16">Javez's Strengths</p>
+        <p class="w3-wide"><i class=></i>Managing a Buisness</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class=></i>Shoe Restoration</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class=></i>Collecting Rare Sneakers</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+        </div>
+      </div>
+      
+      <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">14+</span><br>
+          Partners
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">55+</span><br>
+          Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">89+</span><br>
+          Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">150+</span><br>
+          Meetings
+        </div>
+      </div>
+      
+     
+      
+     
+     
+       
+      <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+      
+      // Change style of navbar on scroll
+      window.onscroll = function() {myFunction()};
+      function myFunction() {
+          var navbar = document.getElementById("myNavbar");
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+              navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+          } else {
+              navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+          }
+      }
+      
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+          var x = document.getElementById("navDemo");
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+      </script>
+      
+      </body>
+      </html>
 <!-- ----------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------- -->
 
-<body>
-    <div class="media border p-3">
-        <img src="img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px;">
-        <div class="media-body">
-          <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="media p-3">
-            <img src="img_avatar2.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:100px;">
-            <div class="media-body">
-              <h4>Jane Doe <small><i>Posted on February 20 2016</i></small></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>  
-        </div>
-</body>
 
     
    <br>
@@ -251,35 +310,25 @@
    <hr>
   
 
-
-
-    
-
-    
-    <!-- Page Features -->
-    
-
-  </div>   <!-- /.container -->
-</div>   <!-- /.container -->
-
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white"> The Kikback &copy; 2019</p>
 
-      <div class="social-icons">
-          <a href="https://www.instagram.com/thekikback/">
-              <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://facebook.com/thekikback">
-            <i class="fab fa-facebook"></i>
-          </a>  
-                     
+ <footer>
+    <div class="container" style="display:inline-block; max-width:100%">
+      <div id="left-footer">
+        <h5 class="m-0 text-center text-white" text> The KikBack &copy; 2019</h5>
+      </div>
+      
+  
+    <!-- social icons -->
+    <div id="right-footer">
+          <ul class="social-icon">
+              <li><a href="https://www.facebook.com/Thekikback/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/thekikback/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
+              <!-- </social icons> -->
   </div>
-    </div>
-    <!-- /.container -->
+   
   </footer>
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
