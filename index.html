@@ -30,13 +30,6 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
- <!-- Slick Carousel-->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<script src="./carousel-slick.js"></script>
-  </head>
-
 
  <style>
   /* Make the image fully responsive */
@@ -44,7 +37,12 @@
       width: 50%;
       height: 50%;
   }
-  body {background-color: lightgrey;}
+  body {
+
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(lightgrey, white, red
+    ); /* Standard syntax (must be last) */
+  }
   </style>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -356,19 +354,13 @@
     <iframe width="1200" height="850" src="https://www.youtube.com/embed/uVUeBOuI8Ik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </center >
  <!-- Grand Opening Video Ends-->
+	
 
- <div class="carousel-slick">
-  <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
-</div>
-				
 
-</div>
 
  <!-- Footer -->
 
- <footer class="py-5 bg-dark">
+ <footer>
     <div class="container" style="display:inline-block; max-width:100%">
       <div id="left-footer">
         <h5 class="m-0 text-center text-white" text> The KikBack &copy; 2019</h5>
