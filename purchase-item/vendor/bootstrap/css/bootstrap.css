@@ -10036,3 +10036,19 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+a {
+  color: red;
+  text-decoration: none;
+  background-color: transparent;
+  text-shadow: 0 0 red
+}
+
+#right-footer {
+  float: right;
+  text-align: right
+}
+#left-footer {
+  float: left;
+  text-align: left
+}
