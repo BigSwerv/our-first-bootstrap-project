@@ -4480,7 +4480,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: black;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
@@ -10194,5 +10194,17 @@ ul.social-icon{
   text-align: left
 }
 
+a {
+  color: red;
+  text-decoration: none;
+  background-color: transparent;
+  text-shadow: 0 0 red
+}
 
 
+.carousel-control-prev {
+  max-height: 500px;
+}
+.carousel-control-next {
+  max-height: 500px;
+}
