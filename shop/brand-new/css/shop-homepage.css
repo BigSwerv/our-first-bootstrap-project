@@ -19,7 +19,28 @@ body {
 
 .pagination a:hover:not(.active) {background-color: rgb(0, 0, 0);}
 
-
+.card-body{
+background-color: #000;
+}
+.list-group-item{
+  background-color: #000;
+}
+a{
+  color:white !important;
+}
+h5{
+  color: white !important;
+}
+.btn-outline-success{
+  color: darkred;
+  border-color:darkred;
+}
+.nav-link.dropdown-toggle{
+  color: darkred !important;
+}
+.dropdown-item{
+  color: darkred !important;
+}
 .social-icons a {
 	display: inline-block;
 	height: 3.5rem;
