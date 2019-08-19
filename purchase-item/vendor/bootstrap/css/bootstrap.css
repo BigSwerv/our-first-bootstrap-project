@@ -153,13 +153,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #a3a3a3;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #d4d4d4;
   text-decoration: underline;
 }
 
@@ -5375,8 +5375,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: gray;
+  border-color: lightgray;
 }
 
 .list-group-horizontal {
