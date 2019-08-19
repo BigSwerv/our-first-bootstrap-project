@@ -11,9 +11,9 @@
 
 
 <!-- Custom styles for this template -->
-<link href="./css/sneaker-sizes.css" rel="stylesheet">
 
 <!-- ------------------- declare Social Icons begins here ----------------------- -->
+<link href="./css/sneaker-sizes.css" rel="stylesheet">
 <link href="./css/social-icon.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -21,7 +21,8 @@
 <!-- ------------------- declare Social Icons ends here ----------------------- -->
 
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+<link rel="stylesheet" href="./css/popup.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -116,7 +117,7 @@
     <!-- DropDown NavBar 2 Begins Here -->
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Repair
+            Restoration
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">.</a>
@@ -129,12 +130,14 @@
           <a class="nav-link" href="../../about/index.html">About</a>
           <li class="nav-item">
               <a class="nav-link" href="#">Accesories</a>
-              
-    
           </li>
-        
             </li>
           </ul>
+
+          <a href="checkout.html" a class="a"> <i class="fa fa-shopping-cart" 
+            aria-hidden="true" 
+            style="padding-right:50px;"></i></a>
+
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -167,8 +170,25 @@
           
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="https://assets.bigcartel.com/product_images/237886973/30A2F874-D213-427B-AE6A-393305F6575D.jpeg?auto=format&fit=max&h=600&w=600" alt=""></a>
+                <a href="#">
+                  <img
+                  class="card-img-top"
+                  src="https://assets.bigcartel.com/product_images/237886973/30A2F874-D213-427B-AE6A-393305F6575D.jpeg?auto=format&fit=max&h=600&w=600">
+                </a>
               <div class="card-body">
+                  <div class="box">
+                    <a href="#popup1"><input type="button" value="Click Me"></a>
+                    </div>
+                    
+                    <div id="popup1" class="overlay">
+                      <div class="popup">
+                        <h2>Here i am</h2>
+                        <a class="close" href="#">&times;</a>
+                        <div class="content">
+                          Thank to pop me out of that button, but now i'm done so you can close this window.
+                        </div>
+                      </div>
+                    </div>
                 <h4 class="card-title">
                   <a href="#">Royalty 4's</a>
                 </h4>
@@ -185,6 +205,19 @@
                 <div class="card h-100">
                   <a href="#"><img class="card-img-top" src="https://assets.bigcartel.com/product_images/237886955/3BAEFA67-7D64-448F-A686-2FB24A48A258.jpeg?auto=format&fit=max&h=600&w=600" alt=""></a>
                   <div class="card-body">
+                      <div id="wrapper">
+                          <p><a class="button" href="#popup1">Click Me</a></p>
+                        </div>
+
+                        <div id="popup1" class="overlay">
+                          <div class="popup">
+                            <h2>Info box</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                              <p>This is done totally without JavaScript. Just HTML and CSS.</p>
+                            </div>
+                          </div>
+                        </div>
                     <h4 class="card-title">
                       <a href="#"> Yeezy Pirate Black 350 V1's</a>
                     </h4>
