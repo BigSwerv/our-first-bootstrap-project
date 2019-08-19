@@ -21,5 +21,10 @@
     float: left;
     text-align: left
   }
+  body {
+    background-color: lightgrey!important; /* For browsers that do not support gradients */
+    background-image: linear-gradient(darkred, lightgrey)!important; /* Standard syntax (must be last) */
+    background-repeat:no-repeat!important;
+  }
   
   
