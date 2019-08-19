@@ -18,6 +18,7 @@ ul.social-icon{
     transition: .5s;
     
     }
+    
     ul.social-icon li a{
     position: relative;
     display: block;
@@ -37,7 +38,7 @@ ul.social-icon{
     left: -20px;
     height: 100%;
     width: 20px;
-    background: rgb(47, 100, 214);
+    background: rgb(255, 0, 255);
     transition: .5s;
     transform: rotate(0deg) skewY(-45deg);
     }
@@ -48,7 +49,7 @@ ul.social-icon{
     left: -11px;
     height: 20px;
     width: 100%;
-    background: rgb(47, 100, 214);
+    background: rgb(214, 211, 47);
     transition: .5s;
     transform: rotate(0deg) skewX(-45deg);
     }
@@ -117,9 +118,16 @@ ul.social-icon{
     ul.social-icon li:hover:nth-child(5) a:after{
     background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
     }
-.fa.fa-instagram{
+.fa.fa-instagram  {
 color: yellow !important;
 }
+
+
+
+
 ul.social-icon li a::after{
-        color: yellow !important;
+    color: yellow !important;
+}
+ul.social-icon li a::after{
+    color: yellow !important;
 }
