@@ -13,8 +13,8 @@
 }
 
 .img-comp-img {  
-  border-style:solid;
-  border color:whitesmoke;
+  border-style:solid; color: aqua;
+  
   position: absolute;
   width: auto;
   height: auto;
