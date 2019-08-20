@@ -10131,3 +10131,6 @@ body {
   background-image: linear-gradient(lightgrey, darkred)!important; /* Standard syntax (must be last) */
   background-repeat:no-repeat!important;
 }
+.fa.fa-shopping-cart{
+  color:red;
+}

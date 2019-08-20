@@ -10131,4 +10131,6 @@
     background-image: linear-gradient(red, black)!important; /* Standard syntax (must be last) */
     background-repeat:no-repeat!important;
   }
-  
+  .fa.fa-shopping-cart{
+    color:red;
+  }
