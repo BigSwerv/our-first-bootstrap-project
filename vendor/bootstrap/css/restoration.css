@@ -8,8 +8,8 @@
 }
 
 .img-comp-container {
+  display:flex;
   position: relative;
-  height: 200px; /*should be the same height as the images*/
 }
 
 .img-comp-img {  

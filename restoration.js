@@ -70,7 +70,7 @@ function initComparisons() {
         /* Resize the image: */
         img.style.width = x + "px";
         /* Position the slider: */
-        slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+        slider.style.left = img.offsetWidth - ((slider.offsetWidth- 43.5) / 2) + "px";
       }
     }
   }
