@@ -13,7 +13,7 @@ ul.social-icon{
     }
     ul.social-icon li .fa{
     font-size: 40px;
-    color: #ff0000;
+    color: blue;
     line-height: 80px;
     transition: .5s;
     
