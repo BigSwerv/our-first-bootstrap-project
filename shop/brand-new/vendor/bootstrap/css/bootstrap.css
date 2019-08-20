@@ -2495,8 +2495,8 @@ fieldset:disabled a.btn {
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: darkred;
+  border-color: darkred;
 }
 
 .btn-success:focus, .btn-success.focus {
