@@ -83,7 +83,7 @@ ul.social-icon{
   }
   ul.social-icon li .fa{
   font-size: 40px;
-  color: #fd0000;
+  color: white;
   line-height: 80px;
   transition: .5s;
   
@@ -93,7 +93,7 @@ ul.social-icon{
   display: block;
   width: 80px;
   height:80px;
-  background-color: #fff;
+  background-color: #3b5999;
   text-align: center;
   transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
   transition: .5s;
@@ -106,7 +106,7 @@ ul.social-icon{
   left: -20px;
   height: 100%;
   width: 20px;
-  background: #b1b1b1;
+  background: #3b5999;
   transition: .5s;
   transform: rotate(0deg) skewY(-45deg);
   }
@@ -117,7 +117,7 @@ ul.social-icon{
   left: -11px;
   height: 20px;
   width: 100%;
-  background: #b1b1b1;
+  background: #3b5999;
   transition: .5s;
   transform: rotate(0deg) skewX(-45deg);
   }
@@ -140,7 +140,7 @@ ul.social-icon{
   background: #2e4a86;
   }
   ul.social-icon li:hover:nth-child(1) a:after{
-  background: #4a69ad;
+  background: #3b5999;
   }
   ul.social-icon li:hover:nth-child(2) a{
   background: #55acee;
@@ -613,4 +613,7 @@ ul.social-icon{
 }
 .pagination a{
   color: white;
+}
+.fa.fa-shopping-cart{
+  color:rgb(230, 6, 6);
 }
