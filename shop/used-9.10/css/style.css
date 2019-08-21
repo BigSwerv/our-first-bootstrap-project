@@ -10134,3 +10134,7 @@ body {
 .fa.fa-shopping-cart{
   color:red;
 }
+.popup-card-text {
+  font-size: 1.5rem;
+    font-weight: 500; 
+}
