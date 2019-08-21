@@ -1,7 +1,6 @@
 
 
 
-
   .box {
     margin: 0 auto;
     background: rgba(255,255,255,0.2);
@@ -71,9 +70,12 @@
   
   }
   
-  
-    }
-    .popup{
+  .popup{
       width: 70%;
     }
-  }
+
+    .something{
+      font-family: Tahoma, Arial, sans-serif;
+      background-color: white;
+    }
+  
