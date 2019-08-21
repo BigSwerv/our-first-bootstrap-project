@@ -47,3 +47,8 @@ body {
 .dev-icons .list-inline-item i:hover {
 	color: white;
 }
+
+
+.fa.fa-shopping-cart{
+	color:rgb(230, 6, 6);
+}
